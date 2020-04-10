@@ -1,0 +1,175 @@
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+h1,h2,h3,h4,h5,h6{   
+    font-weight: 700;
+}
+
+.big-heading{  
+    font-weight: 900;   
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+  /* Containers */
+.container-fluid{
+    padding: 3% 15%;   
+}
+
+  /* Backgorund Section */
+
+.colored-section{
+    background-color: #ff4c68;
+    color: #fff;
+}
+.white-section{
+    background-color: #fff;
+}
+
+   /* Title Section */
+
+#title{  
+    text-align: left;
+}
+
+/* Navigation Bar */
+
+.navbar{
+    padding: 0 0 4.5rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 1rem;
+}
+.nav-link{
+    font-size: 1.2rem;
+    font-family: "Montserrat";
+    font-weight: 300;
+}
+.b{
+    margin: 5% 3% 5% 0;
+}
+.phone{
+    width: 50%;
+    transform: rotate(25deg);
+    position: relative;
+    left: 35%;
+    
+}
+.ico{
+    color: #ef8172;
+    font-size: 4rem;   
+    margin-bottom: 1rem;    
+}
+p{
+    font-size: 1rem;
+    color: #8f8f8f;  
+}
+.fas:hover{
+    color: #ff4c68;
+}
+
+/* Features Section */
+
+#features{
+    padding: 10% 15%;    
+    z-index: 10;
+    /* position: relative;
+    z-index: 1; */
+    
+}
+.fb{
+    
+    padding: 8%;
+}
+.feature-title{
+    font-size: 1.5rem;   
+    
+}
+
+   /* Testimonials Section */
+
+#testimonials{
+    background-color: #ef8172;     
+    color: #fff;
+    font-family: "Montserrat";
+    font-weight: 700;
+    line-height: 1.5;
+
+}
+.tepic{
+    width: 10%;
+    border-radius: 100%;
+    margin: 1.2rem;
+}
+.testimonial-text{
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+  /* Press Section */
+
+#press{
+    background-color: #ef8172;
+    
+}
+.press-pic{
+    width: 15%;
+    margin: 0 2rem 3%;
+}
+.carousel-item{
+    padding: 8% 15%;
+}
+
+  /* Pricing Section */
+
+#pricing{
+    padding: 6rem;
+}
+.price-card{
+    padding: 2% 3%;
+}
+.price-text{
+    font-size: 3rem;
+    line-height: 1.5;
+    
+}
+.card-header{
+    font-size: 1.5rem;
+    
+}
+
+   /* Call to Action Section */
+
+
+.action{   
+    color: #fff;    
+    padding: 5% 15% 3%;  
+}
+.action-btn{
+    margin: 0 1rem 9%;
+}
+
+  /* Footer Section */
+
+.footer-icons{   
+    margin: 5% 1% 1%;
+}
+
+   /* Media Query Section */
+
+@media (max-width: 1000px){
+    .phone{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+}
+
